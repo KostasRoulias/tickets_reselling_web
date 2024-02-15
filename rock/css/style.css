@@ -358,6 +358,8 @@
  .menu-area-main li.active a {
      color: #fff;
      background: #000;
+     border-radius: 5px;
+     border-color: #fff;
      box-shadow: #9d9d9d66 0px 0px 56px 26px;
 }
  .right_cart_section {
@@ -932,7 +934,7 @@
      display: inline-block;
      vertical-align: middle;
 }
- .main-menu ul>li:nth-child (6) {
+ .main-menu ul>li {
      padding-right: 0px;
 }
  .nav>li {
@@ -1908,3 +1910,15 @@
      text-align: center;
 }
  
+.loginButton:hover {
+    cursor: pointer;
+    background-color: red;
+    color: black;
+    font-weight: bold;
+    border-color: #000 ;
+}
+
+.loginButton {
+    width: 65px;
+    height: 40px;
+}
