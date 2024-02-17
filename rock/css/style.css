@@ -49,7 +49,8 @@
      margin: 0 
 }
  h1 {
-     font-size: 24px 
+     font-size: 18px;
+     color:#c8b5c8 !important;
 }
  h2 {
      font-size: 22px 
@@ -74,7 +75,7 @@
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      color: #212121;
      text-decoration: none!important;
-     opacity: 1 
+     opacity: 0.9 
 }
  button:focus {
      outline: none;
@@ -129,6 +130,7 @@
      border-color: #ffffff !important;
      box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25);
 }
+
  .navbar-form input {
      border: none !important;
 }
@@ -354,6 +356,7 @@
 }
  .menu-area-main li:hover a, .menu-area-main li:focus a {
      color: #fff;
+     float: right;
 }
  .menu-area-main li.active a {
      color: #fff;
@@ -855,7 +858,7 @@
      font-size: 16px;
      display: block;
      font-weight: 500;
-     color: #555454;
+     color: aliceblue;
      text-transform: uppercase;
      margin: 0px 15px;
 }
@@ -863,7 +866,7 @@
      padding-right: 0;
 }
  .sub-down li {
-     background: #ffffff;
+     background: aliceblue;
 }
  .main-menu ul>li .sub-down li a {
      color: #114c7d;
@@ -877,7 +880,7 @@
  .main-menu ul>li .sub-down li a::before {
 }
  .main-menu ul>li .sub-down li a:hover {
-     color: #111111;
+     color: #602080;
 }
  .main-menu ul>li .sub-down li a:hover::before {
 }
@@ -898,7 +901,7 @@
      visibility: hidden;
      width: 240px;
      z-index: 999;
-     background: #fff;
+     background: aliceblue;
      -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
      box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
@@ -1345,10 +1348,10 @@
 }
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
  .header {
-     background: #070100;
+     background: #202040      ;
      padding: 23px 0px;
-     border-top: #cf2323 solid 5px;
-     border-bottom: #cf2323 solid 5px;
+     border-top: #602080 solid 5px;
+     border-bottom: #602080 solid 5px;
 }
  .logo a {
      font-size: 40px;
@@ -1357,31 +1360,33 @@
      color: #fff;
      line-height: 40px;
 }
- .search {
+/* .search {
      position: relative;
-}
+}*/
  .search input.form-control {
      width: 100%;
      border-radius: 50px;
      border: none;
      font-size: 15px;
      padding: 7px 35px 7px 15px;
+   
 }
  .form-control {
      margin-top: 10px;
+    
 }
  .form-control:focus {
      box-shadow: inherit;
 }
- .search button {
-     position: absolute;
-     top: 0;
-     right: 0;
-     height: 36px;
-     width: 36px;
-     text-align: center;
-     z-index: 1;
-     background: transparent;
+.search button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    z-index: 1;
+    background: transparent;
 }
  .relative {
      position: absolute;
@@ -1393,9 +1398,21 @@
 }
  .Perfect {
      font-weight: normal;
-     background: #f70606ab;
+     background: rgb(176, 48, 176, 0.5);
+     color: #c8b5c8;
+     margin-top: 0px;
      padding: 0px 20px;
-     font-size: 51px;
+     font-size: 40px;
+    
+}
+.search{
+    position: relative;
+    top: 10px;
+    height: 36px;
+    width: 500px;
+    text-align: center;
+    z-index: 1;
+    background: transparent;
 }
  .banner-main {
      position: relative;
@@ -1414,47 +1431,47 @@
      padding: 0px 0px 40px 0px;
      color: #fff;
 }
- .banner-main .text-bg a {
-     border: #fff solid 1px;
-     background: #fff;
-     width: 209px;
-     padding: 12px 0;
-     display: inline-block;
-     font-weight: 500;
-     font-size: 17px;
-     line-height: 30px;
-     color: #d70a03;
-}
- .banner-main .text-bg a:hover {
-     border: #d70a03 solid 1px;
-     background: #d70a03;
-     color: #fff;
-}
+ 
 /** music-box **/
- .music-box {
-     padding: 90px 0px;
-     background: #fff;
+.music-box {
+    padding: 50px 0px;
+    background: #202040      ;
 }
- .music-box .for-box {
-     padding: 0px 20px;
+.music-box .for-box {
+    padding: 40px 20px 0 20px;
 }
- .music-box .for-box i {
-     text-align: center;
-     display: block;
+.music-box .for-box i {
+    text-align: center;
+    display: block;
 }
- .music-box .for-box h3 {
-     padding-top: 28px;
-     font-size: 20px;
-     line-height: 25px;
-     color: #030000;
-     font-weight: bold;
-     text-transform: uppercase;
+.music-box>.container>h2 {
+    font-size: 50px;
+    line-height: 50px;
+    color: #c8b5c8 ;
+    font-weight: 500;
+    position: relative;
+    padding: 0 0 10px 0;
+    text-align: center;
+    margin-top: 0px;
 }
- .music-box .for-box p{
-     font-size:16px;
-     line-height:22px;
-     color:#030000;
+
+.music-box .for-box p{
+    font-size:16px;
+    line-height:22px;
+    color:aliceblue;
+    margin-top: 20px;
+    text-align: center;
 }
+
+.music-box .for-box> i{
+    font-size: 50px;
+    color: aliceblue;
+}
+.music-box .for-box> i:hover{
+    color:   #B030B0;
+    font-size: 60px;
+}
+
 /** music-box **/
  .img-box figure {
      margin: 0px;
@@ -1912,7 +1929,7 @@
  
 .loginButton:hover {
     cursor: pointer;
-    background-color: red;
+    background-color: #602080;
     color: black;
     font-weight: bold;
     border-color: #000 ;
@@ -1921,4 +1938,5 @@
 .loginButton {
     width: 65px;
     height: 40px;
+    background-color: #B030B0;
 }
