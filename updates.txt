@@ -1,0 +1,24 @@
+Οι αλλαγές μου:
+- Άλλαξα τα sections "Latest News" και "Albums" αλλά διατήρησα τα id και classes του για να μην υπάρξει
+  πρόβλημα στο css κλπ:
+
+  - Άλλαξα background colour ώστε να είναι ένα gradient colour από magenda σε dark blue και transition from top to bottom
+
+  - Added "Hot Events":
+    - Coldplay Event 
+    - Athens International Film Festival (AIFF)
+    - Food Expo
+
+  - Filled each "hot event" with information about them and also used "&nbsp;" to move the type of each event more to the right
+
+  - Changed font color to yellow-ish for better visibility
+
+  - Changed pictures on the "Albums" Section
+
+  - Changed content on albums to make it more enthusiastic and ticket/entertainment-oriented
+
+- Changed footer on all .html files so that it shows the correct info (correct email, name, etc) also moved the "Contact Us" section
+  more to the left because the email was very close with the "Get in Touch" seciton
+
+- Changed all Rights Reserved text on the very bottom on all .html files, into All Right Reserved .helloWorld Solutions
+
