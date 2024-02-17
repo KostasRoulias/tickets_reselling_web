@@ -1421,7 +1421,9 @@
     margin: 0 auto;
 }
 
-
+.main-layout.contact-page{
+    background-color: #202040;
+}
  .banner-main {
      position: relative;
 }
@@ -1873,7 +1875,8 @@
      text-align: center;
 }
  .contactbg {
-     background-color: #ff1d00;
+     background-color: #202040;
+     border-bottom: 5px solid #602080;
      margin-bottom: 90px;
 }
  .contactbg .contacttitlepage h2 {
