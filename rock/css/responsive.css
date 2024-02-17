@@ -13,6 +13,8 @@
      .logo {
          text-align: center;
     }
+
+    
      .cart-content-right {
          padding-bottom: 5px;
     }
@@ -167,9 +169,7 @@
          padding: 5px 15px 5px 15px;
          margin: 0px 0px;
     }
-     .search{
-         display: none;
-    }
+   
      .banner-main .text-bg h1 {
         font-size: 28px;
          line-height: 41px;
@@ -223,11 +223,10 @@
          background: transparent;
          box-shadow: inherit;
     }
-     .search{
-         display: none;
-    }
+    
      .mean-container .mean-bar {
         margin-top: 1px;
+        border-radius: 5px;
     }
      .banner-main .text-bg h1 {
         font-size: 28px;
@@ -289,27 +288,52 @@
 
     margin-bottom: 30px !important;
 
+ }
 }
-}
+
  @media (max-width: 575px) {
      .header {
          padding-bottom: 0px;
     }
+
      .mean-container .mean-bar {
-        margin-bottom: -1px;
+        margin-bottom: 4px;
+        border-radius: 5px;
     }
+
      .menu-area-main li.active a {
          background: transparent;
          box-shadow: inherit;
     }
+
     .contant_icon {
 
     margin-bottom: 30px !important;
 
+   }
+
+    .search {
+    width: 100%;
+    text-align: center;
+   }
+
+.search input.form-control {
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+    font-size: 10px;
+    padding: 7px 35px 7px 15px;
+    margin: 0 auto;
 }
-     .search{
-         display: none;
-    }
+
+.search button {
+    display: none;
+}   
+
+.search button img {
+   display: none;
+}
+
      .logo {
          float: inherit;
          text-align: center;

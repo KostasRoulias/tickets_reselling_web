@@ -346,9 +346,11 @@
 /*--------------------------------------------------------------------- header area ---------------------------------------------------------------------*/
  .logo_section {
      text-align: center;
+     
 }
  .logo {
      float: left;
+    
 }
  nav.main-menu {
      float: right;
@@ -360,10 +362,10 @@
 }
  .menu-area-main li.active a {
      color: #fff;
-     background: #000;
+     background: transparent;
+     backdrop-filter: blur(15px);
      border-radius: 5px;
-     border-color: #fff;
-     box-shadow: #9d9d9d66 0px 0px 56px 26px;
+     box-shadow: #9d9d9d66 0px 0px 20px 15px;
 }
  .right_cart_section {
      float: right;
@@ -1375,6 +1377,8 @@
      margin-top: 10px;
     
 }
+
+
  .form-control:focus {
      box-shadow: inherit;
 }
@@ -1413,7 +1417,11 @@
     text-align: center;
     z-index: 1;
     background: transparent;
+    margin-left: 300;
+    margin: 0 auto;
 }
+
+
  .banner-main {
      position: relative;
 }
